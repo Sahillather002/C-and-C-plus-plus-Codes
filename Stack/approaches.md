@@ -1,5 +1,6 @@
 * Find the nearest smaller numbers on left side in an array (NSL)
-
+  
+```
  vector<int> small_to_left(vector<int> &A)
 {
     int n= A.size();
@@ -21,10 +22,11 @@
     }
     return ans;
 }
-
+```
 
 * Find the nearest smaller numbers on right side in an array (NSR)
 
+```
 vector<int> small_to_right(vector<int> &A)
 {
     int n= A.size();
@@ -46,9 +48,11 @@ vector<int> small_to_right(vector<int> &A)
     }
     return ans;
 }
+```
 
 * Find the nearest greater numbers on right side in an array (NGR)
 
+```
 vector<int> big_to_right(vector<int> const &input)
 {
     int n = input.size();
@@ -75,10 +79,12 @@ vector<int> big_to_right(vector<int> const &input)
  
     return result;
 }
+```
 
 * Find the nearest greater numbers on left side in an array (NSL)
 * same question as above just traverse from left 2 right insread of right to left
 
+```
 vector<int> big_to_left(vector<int> const &input)
 {
     int n = input.size();
@@ -102,6 +108,7 @@ vector<int> big_to_left(vector<int> const &input)
         }
         s.push(input[i]);
     }
+```
  
     return result;
 }
