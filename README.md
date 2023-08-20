@@ -1,5 +1,5 @@
 # C-and-C-plus-plus-Codes
-# Stack basics:
+### Stack basics:
 * Find the nearest smaller numbers on left side in an array (NSL)
   
 ```
