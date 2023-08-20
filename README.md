@@ -83,7 +83,7 @@ vector<int> big_to_right(vector<int> const &input)
 }
 ```
 
-* Find the nearest greater numbers on left side in an array (NSL)
+* Find the nearest greater numbers on left side in an array (NGL)
 * same question as above just traverse from left 2 right insread of right to left
 
 ```
