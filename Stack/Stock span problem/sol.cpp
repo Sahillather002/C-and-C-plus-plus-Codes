@@ -15,6 +15,7 @@ class Solution
        // Your code here
        vector<int>v(n,-1);
        stack<int>st;
+	// storing nearest greater element index to left of that current element
        for(int i=0;i<n;i++){
            while(!st.empty()){
                if(price[st.top()]>price[i]){
