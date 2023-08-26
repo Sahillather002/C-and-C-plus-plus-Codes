@@ -54,7 +54,7 @@ int main() {
 
 # Little shorter code
 
-```
+/*
 class Solution{
   public:
     int longestKSubstr(string s, int k) {
@@ -80,4 +80,4 @@ class Solution{
     }
 };
 
-```
+*/
