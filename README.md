@@ -110,8 +110,6 @@ vector<int> big_to_left(vector<int> const &input)
         }
         s.push(input[i]);
     }
-```
- 
     return result;
 }
-
+```
